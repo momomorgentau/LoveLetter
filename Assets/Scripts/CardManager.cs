@@ -22,10 +22,6 @@ public class CardManager : MonoBehaviour
         set { cardName = value; }
     }
 
-    internal void AddEventListenerOnTap(object v)
-    {
-        throw new NotImplementedException();
-    }
 
     public int CardPower
     {
@@ -60,5 +56,11 @@ public class CardManager : MonoBehaviour
     public void OnTap()
     {
         tapAction();
+    }
+
+    //カードを捨てる処理
+    public void ThrowCard() 
+    {
+        Destroy(this.gameObject);
     }
 }

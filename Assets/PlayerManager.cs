@@ -7,21 +7,24 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     [SerializeField]
-    private CardManager cardManager;
+    public CardManager cardManager1;
+    public CardManager cardManager2;
+
 
 
     private void Start()
     {
         uIManager.CardUISetUp();
-        SetUp();
+        
     }
 
 
     [SerializeField]
     private UIManager uIManager;
     //カードをタップした際の挙動を登録
-    private void SetUp()
+    public void SetUp()
     {
-        cardManager.AddEventListenerOnTap(() => uIManager.UpdateText(cardManager));
+        //CardManager.card = 
+        //cardManager2.AddEventListenerOnTap(() => uIManager.UpdateText(cardManager2));
     }
 }

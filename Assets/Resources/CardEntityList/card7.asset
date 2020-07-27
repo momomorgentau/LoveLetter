@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550ff140b6fa54e4cafa45ae5c5b0531, type: 3}
+  m_Name: card7
+  m_EditorClassIdentifier: 
+  name: claimer
+  nameJP: "\u304F\u308C\u30FC\u307E\u30FC"
+  text: "\u3042\u306A\u305F\u306E\u624B\u672D\u306E\u5F37\u3055\u304C12\u4EE5\u4E0A\u306E\u5834\u5408\u3001\u8131\u843D\u3059\u308B\u3002"
+  power: 7
+  icon: {fileID: 21300000, guid: 8a8c22440c69ba649942ce9590ae7465, type: 3}
+  powerIcon: {fileID: 21300500, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
